@@ -16,7 +16,7 @@
   function LikeButton() { // 함수형 컴포넌트 X 함수 컴포넌트 O
     // this 쓸 일이 없다
     const [liked, setLiked] = React.useState(false); // 구조분해
-    // 뭔짓을 하든, 결국 return한게 화면인거에요.
+    
     if (liked) {
       return 'You liked this.';
     }
